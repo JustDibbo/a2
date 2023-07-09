@@ -27,7 +27,7 @@
     margin-top: 24px;
 }
 
-.pb1{
+.pb1 {
     color: #005FAC;
     background: #FFF;
     padding: 20px 25px 20px 25px;
@@ -37,10 +37,22 @@
     margin-top: 32px;
 }
 
-.div2{
+.div2 {
     text-align: right;
     margin-right: 230px;
     padding-top: 216px;
     /* width: 525px; */
     /* justify-content: center; */
+}
+
+.parent1 {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    /* padding: auto; */
+}
+
+.li1 li {
+    /* text-decoration: none; */
+    list-style-type: none;
 }
