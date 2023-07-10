@@ -114,16 +114,75 @@
     padding-top: 10px;
 }
 
-.child21{
+.child21 {
     /* align-items: center; */
     /* justify-content: center; */
     text-align: center;
 }
 
-.parent2{
+.parent2 {
     display: flex;
     /* align-items: center; */
     justify-content: center;
     padding-top: 50px;
     gap: 98px;
+}
+
+.vajalt {
+    color: #FFF;
+    font-size: 40px;
+    /* font-weight: 700; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+    /* padding-left: 65px; */
+}
+
+.vajal {
+    /* background-image: url('../new-year-new-me/images/watch.png'); */
+    /* background-repeat: no-repeat; */
+    margin-top: 130px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: left;
+    padding-left: 65px;
+    /* border-radius: 5px 5px 5px 5px; */
+    margin-bottom: 100px;
+    /* width: 100vh; */
+    /* margin: auto; */
+    /* background-image: url('../new-year-new-me/images/gradient1.png'); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    /* margin-bottom: -100px; */
+    /* padding-bottom: -px; */
+    height: 300px;
+}
+
+.vajalb {
+    color: #005FAC;
+    background: #FFF;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-bottom: 100px;
+}
+
+.boss {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* background-size: 100%; */
+    width: 100vh;
+    margin: auto;
+    /* border-radius: 5px; */
+    background-image: url('../new-year-new-me/images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 300px;
 }
