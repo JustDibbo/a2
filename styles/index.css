@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* font-family: Work Sans; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 .div1 {
@@ -17,6 +19,7 @@
     color: #FFF;
     font-size: 65px;
     font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hedp {
@@ -48,11 +51,46 @@
 .parent1 {
     display: flex;
     /* text-align: center; */
-    justify-content: space-around;
+    justify-content: center;
     /* padding: auto; */
+    gap: 105px;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 130px;
 }
 
 .li1 li {
     /* text-decoration: none; */
     list-style-type: none;
+    color: #444343;
+    padding-bottom: 8px;
+}
+
+.child2 {
+    max-width: 410px;
+    /* padding-right: 0; */
+
+}
+
+.mp1 {
+    color: #444343;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    /* color: var(--dark-02, #444343); */
+    /* font-family: Work Sans; */
+    /* font-size: 16px; */
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.mh1 {
+    color: #151414;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child1 {
+    /* max-width: 50px; */
 }
